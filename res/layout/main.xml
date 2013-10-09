@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/pig5"
+    >
+
+    
+    
+       
+     
+              <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Sleeping..zZZ"
+        android:textSize="20dp" 
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:id="@+id/tvDisplay0"
+        >
+     </TextView>   
+     
+              
+         <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Piggy Name: Winnie"
+        android:textSize="20dp" 
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/tvDisplay1"
+        >
+     </TextView>
+    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tummy Status: Full"
+        android:textColor="@color/black"
+        android:textSize="17dp" 
+        android:gravity="left"
+        android:id="@+id/tvDisplay2"
+        ></TextView>
+    
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mood:Happy"
+        android:textColor="@color/black"
+        android:textSize="17dp" 
+        android:gravity="left"
+        android:id="@+id/tvDisplay3"
+        ></TextView>
+      
+            <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Level: 1"
+        android:textColor="@color/black"
+        android:textSize="17dp" 
+        android:gravity="left"
+        android:id="@+id/tvDisplay4"
+        ></TextView>
+              
+              
+          
+
+     
+    <Button
+        android:layout_width= "200dp"
+        android:layout_height= "wrap_content"
+        android:text = "Feed her 豆腐花!"
+        android:textSize="18dp"
+        android:layout_gravity = "center" 
+        android:id="@+id/bfeed"
+        android:textColor="@color/yellow"
+        >
+        </Button>
+    
+    <Button
+        android:layout_width= "200dp"
+        android:layout_height= "wrap_content"
+        android:text = "Steal 豆腐花 from other piggies!"
+        android:textSize="18dp"
+        android:layout_gravity = "center"
+        android:id="@+id/bsteal"
+        android:textColor="@color/yellow"
+         >
+        </Button>
+        
+        
+    <Button
+        android:layout_width= "200dp"
+        android:layout_height= "wrap_content"
+        android:text = "Fight Other Piggies"
+        android:textSize="18dp"
+        android:layout_gravity = "center"
+		android:id="@+id/bfight"
+		android:textColor="@color/yellow"
+         >
+        </Button>
+        
+     <Button
+        android:layout_width= "200dp"
+        android:layout_height= "wrap_content"
+        android:text = "Gym, Shopping, Banging!"
+        android:textSize="18dp"
+        android:layout_gravity = "center"
+		android:id="@+id/bgym"
+        android:textColor="@color/yellow"
+         >
+        </Button>
+        
+          <Button
+        android:layout_width= "200dp"
+        android:layout_height= "wrap_content"
+        android:text = "Sleeping"
+        android:textSize="18dp"
+        android:layout_gravity = "center"
+		android:id="@+id/bsleep"
+        android:textColor="@color/yellow"
+         >
+        </Button>
+        
+        
+</LinearLayout>
